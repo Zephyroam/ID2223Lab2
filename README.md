@@ -1,5 +1,5 @@
 # ID2223Lab2
-This repository contains the implementation and evaluation results for KTH ID2223 Lab 2.
+This repository contains the implementation and evaluation results for KTH ID2223 Lab 2 of our group: Xiangyu Shi and Ali Banaei.
 
 ### Deliverables
 
