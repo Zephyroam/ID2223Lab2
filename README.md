@@ -46,7 +46,7 @@ Higher is better across all metrics.
 | Qwen2.5-3B-Instruct   | 16        | FineTome | 0.57  | 0.21   | **0.6470** |
 | Qwen2.5-3B-Instruct   | 32        | FineTome | 0.59  | 0.23   | 0.6468 |
 
-We observe that different LoRA ranks yield varying performance across benchmarks. For instance, a LoRA rank of 16 achieves the highest MMLU score for both Llama-3.2-1B and Qwen2.5-3B models, while a rank of 32 performs best on GSM8K for Llama-3.2-3B. This indicates that the optimal LoRA rank may depend on the specific task and model architecture.
+We observe that different LoRA ranks yield varying performance across benchmarks. For instance, a LoRA rank of 16 achieves the highest MMLU score for Qwen2.5-3B model, while a rank of 32 performs best on all three benchmarks for Llama-3.2-3B. This indicates that the optimal LoRA rank may depend on the specific task and model architecture.
 
 ### Hugging Face Model Storage
 The fine-tuned models are publicly available on Hugging Face Model Hub:
